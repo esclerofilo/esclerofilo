@@ -1,0 +1,40 @@
+/* Estilo general */
+body {
+    background-color: #A8A090;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Contenedor principal */
+.game-container {
+    width: 320px;
+    margin: 20px auto;
+    border: 4px solid #000;
+    background-color: #F8F8F8;
+    padding: 10px;
+}
+
+/* Encabezado y pie de página */
+header, footer {
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 16px;
+    color: #000;
+}
+
+/* Mapa */
+#map {
+    width: 100%;
+    height: 400px;
+    border: 2px solid #000;
+    image-rendering: pixelated; /* Enfatiza el efecto pixelado */
+    filter: grayscale(1) contrast(2) saturate(0.5); /* Aplica efecto retro */
+}
+
+/* Texto */
+p {
+    font-size: 10px;
+}
